@@ -1,0 +1,48 @@
+==Create and label a schedule==
+
+- First create and give a title to the schedule
+
+==Time Slot Creation==
+
+- Edit what half-hour increments are visible
+- Checkboxes to show or hide time slots
+- Edit what time slots have no class
+- Block out a time slot for the entire week easily (optional)
+
+==Add, edit or remove trainers==
+
+- Add, edit or delete trainers
+- Input to create a trainer
+- Allow option to delete a trainer
+- Deleting a trainer also removes them from any time slot they are scheduled for
+- Edit the shape associated with a trainer
+- Preset gifs
+- Trainer must already be added (or) this option could be part of the trainer addition step
+- Options in a dropdown
+
+==Training Class Creation==
+
+- Edit background color and border of a training class
+- Edit name of class
+
+==Fill Chosen Timeslots==
+
+- Assign a class and trainer to a timeslot
+
+==Additional Options==
+
+- Option to compress consecutive half-hour increments with no classes (optional)
+- Option to hide a day of the week (optional)
+
+==Shortcode usage==
+
+- Create a page for the schedule
+- Place shortcode on page to call and place schedule.
+- Save and publish page
+
+Final Output
+
+Schedule with the following options: 
+Time of day (30 min increments)
+Trainer
+Class Title or No class
