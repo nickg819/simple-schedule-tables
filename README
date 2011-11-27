@@ -40,9 +40,9 @@
 - Place shortcode on page to call and place schedule.
 - Save and publish page
 
-Final Output
+==Final Output==
 
-Schedule with the following options: 
-Time of day (30 min increments)
-Trainer
-Class Title or No class
+- Schedule with the following options: 
+- Time of day (30 min increments)
+- Trainer
+- Class Title or No class
