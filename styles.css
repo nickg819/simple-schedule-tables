@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'SlabTallXMediumRegular';
+    src: url('/wp-content/uploads/schedule/fonts/slabtallx-medium-webfont.eot');
+    src: url('/wp-content/uploads/schedule/fonts/slabtallx-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wp-content/uploads/schedule/fonts/slabtallx-medium-webfont.woff') format('woff'),
+         url('/wp-content/uploads/schedule/fonts/slabtallx-medium-webfont.ttf') format('truetype'),
+         url('/wp-content/uploads/schedule/fonts/slabtallx-medium-webfont.svg#SlabTallXMediumRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.schedule { margin: 0; padding: 0; }
+.schedule th { 
+	padding: 0;
+	margin: 0;
+	border-color: none;
+	font-family: 'SlabTallXMediumRegular'; 
+	color: #fff; 
+	background: #272727 url('/wp-content/uploads/schedule/th-bg.png') no-repeat;
+	font-size: 25px; 
+	width: 129px; 
+	height: 95px;
+	text-align: center;	
+	vertical-align: middle;
+	font-weight: normal;
+}
+.schedule td { 
+	padding: 0;
+	margin: 0;
+	border-color: none;
+	vertical-align: middle;
+	height: 55px; 
+	font-family: Arial, Helvetica, sans-serif;
+	background: #fff url('/wp-content/uploads/schedule/td-bg.png') no-repeat;
+	font-weight: bold;
+	color: #666;
+	font-style: italic;
+	padding-right: 12px;
+}
+.schedule span { line-height: 30px; }
+
+.schedule th.logo { background: url('/wp-content/uploads/schedule/th-logo-bg.png') no-repeat #dbdbdb; }
+.schedule td.time { text-align: right; }
+
+.schedule tr.noclasses { background: url('/wp-content/uploads/schedule/noclass-bg.png') no-repeat 0 0; }
+.schedule tr.noclasses td { background: none; }
+.schedule tr.noclasses td.time { background: #fff url('/wp-content/uploads/schedule/td-bg.png') no-repeat; }
+.schedule td.noclasses { background: url('/wp-content/uploads/schedule/noclass-bg.png') no-repeat 0 0; }
+
+.schedule td .trainer { 
+	display: block; 
+	height: 16px; 
+	width: 16px; 
+	margin-left: 88px; 
+	margin-top: -13px; 
+}
+.schedule td .trainer.john { background: url('/wp-content/uploads/schedule/square.png') 0 0 no-repeat; }
+.schedule td .trainer.kevin { background: url('/wp-content/uploads/schedule/circle.png') 0 0 no-repeat; }
+.schedule td .trainer.keith { background: url('/wp-content/uploads/schedule/star.png') 0 0 no-repeat; }
+.schedule td .trainer.michelle { background: url('/wp-content/uploads/schedule/triangle.png') 0 0 no-repeat; }
+
+.schedule td .class { 
+	border-radius: 3px 3px 3px 3px; 
+	height: 30px; 
+	width: 105px; 
+	margin-left: 8px; 
+	text-align: center;
+	color: #fff;
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-shadow: 1px 0 1px #b7b7b7;
+}
+.schedule td .class.bootcamp { 
+	background-color: #76caa7; 
+	border: 1px solid #5fab83; 
+}
+.schedule td .class.stride { 
+	background-color: #d18787;
+	border: 1px solid #ac6868; 
+}
+.schedule td .class.suspension { 
+	background-color: #e9da5b;
+	border: 1px solid #cdc050; 
+}
